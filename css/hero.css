@@ -7,6 +7,8 @@ body{
 	height: 100%;
 	width: 100%;
 	font-family: 'Didot', 'Bookman', 'Times', serif;
+	line-height: 1.3em;
+	background-color: snow;
 }
 header{
 	background-color: crimson;
@@ -15,15 +17,61 @@ header{
 	padding-bottom: 3.125em;
 }
 
+h1, h2{
+	font-family: 'AlexBrush', 'Didot', 'Bookman', 'Times', serif;
+}
 header h1{
 	margin-bottom: 0;
 	margin-top: 0.5em;
 	color: white;
-	font-family: 'AlexBrush', 'Didot', 'Bookman', 'Times', serif;
 	font-size: 5em;
 }
 
 header img{
 	border: 10px solid;
 	border-color: #121210;
+}
+
+main{
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 1.25em;
+}
+main img{
+	max-width: 100%;
+}
+h2{
+	font-size: 3em;
+	color: goldenrod;
+	margin: 1.25em 0 0.6em;
+}
+
+a{
+	color: goldenrod;
+}
+
+a:hover{
+	color:darkgoldenrod;
+}
+
+footer{
+	background-color: crimson;
+	text-align: right;
+	color: white;
+	padding: 2em;
+}
+footer p{
+	margin: 0;
+}
+footer a{
+	color: aliceblue;
+}
+footer a:hover{
+	color: darkblue;
+}
+
+p.caption{
+	color: dimgray;
+	font-style: italic;
+	margin-top: 0.25em;
 }
