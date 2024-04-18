@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'AlexBrush';
+	src: url(fonts/alex-brush/AlexBrush-Regular.ttf);
+}
+body{
+	margin:0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Didot', 'Bookman', 'Times', serif;
+}
+header{
+	background-color: crimson;
+	text-align: center;
+	padding-top: 3.125em;
+	padding-bottom: 3.125em;
+}
+
+header h1{
+	margin-bottom: 0;
+	margin-top: 0.5em;
+	color: white;
+	font-family: 'AlexBrush', 'Didot', 'Bookman', 'Times', serif;
+	font-size: 5em;
+}
+
+header img{
+	border: 10px solid;
+	border-color: #121210;
+}
