@@ -33,7 +33,7 @@ header img{
 }
 
 main{
-	max-width: 50em;
+	max-width: 60em;
 	margin: 0 auto;
 	padding: 1.25em;
 }
@@ -47,10 +47,12 @@ h2{
 }
 
 a{
+	text-decoration: none;
 	color: goldenrod;
 }
 
 a:hover{
+	text-decoration: none;
 	color:darkgoldenrod;
 }
 
@@ -64,9 +66,11 @@ footer p{
 	margin: 0;
 }
 footer a{
+	text-decoration: none;
 	color: aliceblue;
 }
 footer a:hover{
+	text-decoration: none;
 	color: darkblue;
 }
 
